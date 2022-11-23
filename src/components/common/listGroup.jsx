@@ -1,8 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-const ListGroup = (props) => {
-  const { items, textProperty, valueProperty, selectedItem, onItemSelect } =
-    props;
-
+const ListGroup = ({
+  items,
+  textProperty,
+  valueProperty,
+  selectedItem,
+  onItemSelect,
+}) => {
   return (
     <div className="list-group m-2">
       {items.map((item) => (
