@@ -1,6 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Component } from "react";
-
 const ListGroup = (props) => {
   const { items, textProperty, valueProperty, selectedItem, onItemSelect } =
     props;
